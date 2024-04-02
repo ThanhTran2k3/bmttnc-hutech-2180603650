@@ -54,7 +54,7 @@ while(True):
             print("\n Danh sách sinh viên trống!")
     elif(key == 6):
         if(qlsv.soLuongSinhVien()>0):
-            print("\6. Sắp xếp sinh viên theo tên.")
+            print("\6. Sắp xếp sinh viên theo tên chuyên ngành.")
             qlsv.sortByName()
             qlsv.showSinhVien(qlsv.getListSinhVien())
         else:
